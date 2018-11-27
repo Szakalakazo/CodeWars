@@ -2,6 +2,7 @@ package Lvl_8;
 
 public class Main {
     public static void main(String[] args) {
+        int[] array = { 6, 2, 1, 8, 10 };
         //Removing Spaces in String
         //System.out.println(RemoveStringSpaces.noSpace("String With Spaces"));
 
@@ -16,8 +17,10 @@ public class Main {
         */
 
         //BasicMathOperators
-        System.out.println(BasicMathOperations.basicMath("/",10,5));
+        //System.out.println(BasicMathOperations.basicMath("/",10,5));
 
+        //SumWithout Highest and Lowest
+        System.out.println(SumWithoutHighestLlowest.sum(array));
 
     }
 }
