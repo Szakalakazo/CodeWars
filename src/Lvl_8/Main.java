@@ -6,14 +6,18 @@ public class Main {
         //System.out.println(RemoveStringSpaces.noSpace("String With Spaces"));
 
         //Counting Sheeps
-
-        Boolean[] aWeirdArray = {true,  true,  true,  false,
+        /*Boolean[] aWeirdArray = {true,  true,  true,  false,
                 true,  true,  true,  true ,
                 true,  false, true,  false,
                 true,  false, false, true ,
                 true,  true,  true,  true ,
                 false, false, true,  true};
-
         System.out.println(CountingSheeps.countSheeps(aWeirdArray));
+        */
+
+        //BasicMathOperators
+        System.out.println(BasicMathOperations.basicMath("/",10,5));
+
+
     }
 }
