@@ -1,5 +1,8 @@
 package Lvl_8;
 
+import javax.swing.*;
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         int[] array = { 6, 2, 1, 8, 10 };
@@ -20,7 +23,9 @@ public class Main {
         //System.out.println(BasicMathOperations.basicMath("/",10,5));
 
         //SumWithout Highest and Lowest
-        System.out.println(SumWithoutHighestLlowest.sum(array));
+        //System.out.println(SumWithoutHighestLlowest.sum(array));
 
+        //Convert number to reversed array of digits
+        System.out.println(Arrays.toString(ConvertNumberToReversedArrayDigits.digitize(-123)));
     }
 }
