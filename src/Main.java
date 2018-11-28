@@ -1,4 +1,5 @@
 import Lvl_7.GetMiddleChar;
+import Lvl_7.HightestAndLowestinString;
 import Lvl_7.Mumbling;
 import Lvl_7.VowelCounter;
 
@@ -38,6 +39,9 @@ public class Main {
 
         //VowelCounter
         //System.out.println(VowelCounter.getCount(" Szakalakazo"));
-        VowelCounter.getCount("Szakalakazo");
+
+        //HighestAndLowestString
+        System.out.println(HightestAndLowestinString.HighAndLow("1 4 5 9 8 7 2 -9"));
+
     }
 }
