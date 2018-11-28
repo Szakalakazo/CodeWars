@@ -1,7 +1,4 @@
-import Lvl_7.GetMiddleChar;
-import Lvl_7.HightestAndLowestinString;
-import Lvl_7.Mumbling;
-import Lvl_7.VowelCounter;
+import Lvl_7.*;
 
 import javax.swing.*;
 import java.util.Arrays;
@@ -41,7 +38,10 @@ public class Main {
         //System.out.println(VowelCounter.getCount(" Szakalakazo"));
 
         //HighestAndLowestString
-        System.out.println(HightestAndLowestinString.HighAndLow("1 4 5 9 8 7 2 -9"));
+        //System.out.println(HightestAndLowestinString.HighAndLow("1 4 5 9 8 7 2 -9"));
+
+        //ShortestWord
+        System.out.println(ShortestWord.findShort("Ala ma misiakczka za"));
 
     }
 }
