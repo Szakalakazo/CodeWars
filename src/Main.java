@@ -1,3 +1,4 @@
+import Lvl_7.GetMiddleChar;
 import Lvl_7.Mumbling;
 
 import javax.swing.*;
@@ -31,6 +32,7 @@ public class Main {
         //System.out.println(Arrays.toString(ConvertNumberToReversedArrayDigits.digitize(-123)));
 
         //Mumbling
-        System.out.println(Mumbling.accum("jakao"));
+        //System.out.println(Mumbling.accum("jakao"));
+        System.out.println(GetMiddleChar.getMiddle("12345"));
     }
 }

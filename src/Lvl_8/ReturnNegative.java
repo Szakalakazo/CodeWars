@@ -6,6 +6,7 @@ public class ReturnNegative {
     }
 
     public static int makeNegative(int x) {
+
         return (x > 0) ? -x : x;
     }
 }
