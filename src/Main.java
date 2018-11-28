@@ -1,5 +1,6 @@
 import Lvl_7.GetMiddleChar;
 import Lvl_7.Mumbling;
+import Lvl_7.VowelCounter;
 
 import javax.swing.*;
 import java.util.Arrays;
@@ -33,6 +34,10 @@ public class Main {
 
         //Mumbling
         //System.out.println(Mumbling.accum("jakao"));
-        System.out.println(GetMiddleChar.getMiddle("12345"));
+        //System.out.println(GetMiddleChar.getMiddle("12345"));
+
+        //VowelCounter
+        //System.out.println(VowelCounter.getCount(" Szakalakazo"));
+        VowelCounter.getCount("Szakalakazo");
     }
 }
