@@ -16,5 +16,4 @@ public class StringRepeat {
         }
         return output.toString();
     }
-
 }

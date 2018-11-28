@@ -1,4 +1,4 @@
-package Lvl_8;
+import Lvl_7.Mumbling;
 
 import javax.swing.*;
 import java.util.Arrays;
@@ -6,6 +6,8 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         int[] array = { 6, 2, 1, 8, 10 };
+        String[] stringArray = { "ala" , "ma", "kota" };
+
         //Removing Spaces in String
         //System.out.println(RemoveStringSpaces.noSpace("String With Spaces"));
 
@@ -26,6 +28,9 @@ public class Main {
         //System.out.println(SumWithoutHighestLlowest.sum(array));
 
         //Convert number to reversed array of digits
-        System.out.println(Arrays.toString(ConvertNumberToReversedArrayDigits.digitize(-123)));
+        //System.out.println(Arrays.toString(ConvertNumberToReversedArrayDigits.digitize(-123)));
+
+        //Mumbling
+        System.out.println(Mumbling.accum("jakao"));
     }
 }
