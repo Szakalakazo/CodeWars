@@ -3,20 +3,15 @@ package Lvl_7;
 import java.util.Arrays;
 
 public class DescendingOrder {
-    public static int sortDesc(final int num) {
+    public static void sortDesc(int num) {
 
-        String intString = "";
-        intString.valueOf(num);
-        String[] strArray = intString.split("");
-        int[] intArray = new int[strArray.length];
+        int reverse = 0;
 
-        for(int i = 0; i < intArray.length-1; i++){
-            intArray[i] = Integer.parseInt(strArray[i]);
+        while(num != 0){
+            reverse = reverse * 10;
+            reverse = reverse + num % 10;
+            num = num/10;
         }
-        Arrays.sort(intArray);
-        return intArray.toString()
-
-
-
+        System.out.println(reverse);
     }
 }

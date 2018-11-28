@@ -41,7 +41,9 @@ public class Main {
         //System.out.println(HightestAndLowestinString.HighAndLow("1 4 5 9 8 7 2 -9"));
 
         //ShortestWord
-        System.out.println(ShortestWord.findShort("Ala ma misiakczka za"));
+        //System.out.println(ShortestWord.findShort("Ala ma misiakczka za"));
 
+        //DescendingOrder
+        DescendingOrder.sortDesc(112220);
     }
 }
