@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         int[] array = { 6, 2, 1, 8, 10 };
         String[] stringArray = { "ala" , "ma", "kota" };
-        String test = new String();
+        String test = "Ala ma koteczka a kotek ma ale";//new String();
 
         //Removing Spaces in String
         //System.out.println(RemoveStringSpaces.noSpace("String With Spaces"));
@@ -48,6 +48,10 @@ public class Main {
         //System.out.println(DescendingOrder.sortDesc(12340 ));
 
         //CapitalizingFirstLetters
-        System.out.println(CapitalizingFirstLetter.toJadenCase(""));
+        //System.out.println(CapitalizingFirstLetter.toJadenCase(""));
+
+        //FindAndDeleteVowels
+        System.out.println(FindAndDeleteVowels.disemvowel(test));
+
     }
 }
