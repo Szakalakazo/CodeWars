@@ -54,7 +54,10 @@ public class Main {
         //System.out.println(FindAndDeleteVowels.disemvowel(test));
 
         //AddNumbersFromRange
-        System.out.println(AddNumbersFromRange.GetSum(-1,0));
+        //System.out.println(AddNumbersFromRange.GetSum(-1,0));
+
+        //ASquareOfSquares
+        System.out.println(ASquareOfSquares.isSquare(24));
 
     }
 }
