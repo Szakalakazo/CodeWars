@@ -6,7 +6,23 @@ import java.util.Collections;
 public class DescendingOrder {
     public static int sortDesc(int num) {
 
-        String text = "";
+        //=========The coolest solution
+        /*String[] array = String.valueOf(num).split("");
+        Arrays.sort(array, Collections.reverseOrder());
+        return Integer.valueOf(String.join("",array));*/
+
+
+        //=========Another cool solution
+        String[] numbers = (Integer.toString(Integer.valueOf(num))).split("");
+        Arrays.sort(numbers);
+        String result = "";
+        for(String s : numbers) {
+            result = s + result;
+        }
+        return Integer.parseInt(result);
+
+        //=========My terible solution (but at least it works...)
+/*        String text = "";
         Integer length = text.valueOf(num).length();
         Integer[] array = new Integer[length];
 
@@ -19,7 +35,7 @@ public class DescendingOrder {
         for (int numInArray : array) {
             strNum.append(numInArray);
         }
-        return Integer.parseInt(strNum.toString());
+        return Integer.parseInt(strNum.toString());*/
 
     }
 }

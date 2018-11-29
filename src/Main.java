@@ -44,6 +44,6 @@ public class Main {
         //System.out.println(ShortestWord.findShort("Ala ma misiakczka za"));
 
         //DescendingOrder
-        DescendingOrder.sortDesc(132025 );
+        System.out.println(DescendingOrder.sortDesc(12340 ));
     }
 }
