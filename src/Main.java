@@ -57,7 +57,7 @@ public class Main {
         //System.out.println(AddNumbersFromRange.GetSum(-1,0));
 
         //ASquareOfSquares
-        System.out.println(ASquareOfSquares.isSquare(24));
+        System.out.println(ASquareOfSquares.isSquare(625));
 
     }
 }
