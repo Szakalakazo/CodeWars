@@ -51,7 +51,10 @@ public class Main {
         //System.out.println(CapitalizingFirstLetter.toJadenCase(""));
 
         //FindAndDeleteVowels
-        System.out.println(FindAndDeleteVowels.disemvowel(test));
+        //System.out.println(FindAndDeleteVowels.disemvowel(test));
+
+        //AddNumbersFromRange
+        System.out.println(AddNumbersFromRange.GetSum(-1,0));
 
     }
 }
