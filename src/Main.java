@@ -57,7 +57,10 @@ public class Main {
         //System.out.println(AddNumbersFromRange.GetSum(-1,0));
 
         //ASquareOfSquares
-        System.out.println(ASquareOfSquares.isSquare(625));
+        //System.out.println(ASquareOfSquares.isSquare(625));
+
+        //Isogram
+        System.out.println(Isogram.isIsogram("adc"));
 
     }
 }
