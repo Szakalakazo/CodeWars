@@ -60,7 +60,9 @@ public class Main {
         //System.out.println(ASquareOfSquares.isSquare(625));
 
         //Isogram
-        System.out.println(Isogram.isIsogram("adc"));
+        //System.out.println(Isogram.isIsogram("adc"));
+
+        System.out.println(RegexValidatePIN.validatePin("01000"));
 
     }
 }
