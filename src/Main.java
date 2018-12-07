@@ -68,6 +68,13 @@ public class Main {
         //CreditCardMask
         //System.out.println(CreditCardMask.maskify("2568629484642 984984984297254"));
 
-        System.out.println(NthSeries.seriesSum(2));
+        //Nth fraction
+        //System.out.println(NthSeries.seriesSum(2));
+
+        //Sum of odd
+        //System.out.println(SumOfOddNums.rowSumOddNumbers(3));
+
+        //Don't give me five
+        System.out.println(DontGiveMe5.dontGiveMeFive(4,17));
     }
 }
