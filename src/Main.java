@@ -75,6 +75,9 @@ public class Main {
         //System.out.println(SumOfOddNums.rowSumOddNumbers(3));
 
         //Don't give me five
-        System.out.println(DontGiveMe5.dontGiveMeFive(4,17));
+        //System.out.println(DontGiveMe5.dontGiveMeFive(4,17));
+
+        //Reverse words
+        System.out.println(ReverseWords.reverseWords("Siała Baba Mak"));
     }
 }
