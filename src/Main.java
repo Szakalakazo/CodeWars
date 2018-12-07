@@ -66,7 +66,8 @@ public class Main {
         //System.out.println(RegexValidatePIN.validatePin("01000"));
 
         //CreditCardMask
-        CreditCardMask.maskify("Alicja");
+        //System.out.println(CreditCardMask.maskify("2568629484642 984984984297254"));
 
+        System.out.println(NthSeries.seriesSum(2));
     }
 }
