@@ -62,7 +62,11 @@ public class Main {
         //Isogram
         //System.out.println(Isogram.isIsogram("adc"));
 
-        System.out.println(RegexValidatePIN.validatePin("01000"));
+        //ValidatePin
+        //System.out.println(RegexValidatePIN.validatePin("01000"));
+
+        //CreditCardMask
+        CreditCardMask.maskify("Alicja");
 
     }
 }
