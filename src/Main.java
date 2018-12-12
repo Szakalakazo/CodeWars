@@ -5,9 +5,11 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int[] array = {2,1};
-        String[] stringArray = { "ala" , "ma", "kota" };
+        int[] array = {2, 1};
+        String[] stringArray = {"ala", "ma", "kota"};
         String test = "Ala ma koteczka a kotek ma ale";//new String();
+        String[] text1 = new String[]{"1234", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"};
+        String[] text2 = new String[]{ "gggqaffhhh", "cccooommaaqqoxii", "tttoowwwmmww"};
 
         //Removing Spaces in String
         //System.out.println(RemoveStringSpaces.noSpace("String With Spaces"));
@@ -86,6 +88,8 @@ public class Main {
         //SumInArrayOddOrEven
 //        System.out.println(SumInArrayOddOrEven.oddOrEven(array));
 
-        TheHighestAndLowes.minMax(array);
+        //TheHighestAndLowes.minMax(array);
+        System.out.println(MaxLengthDiff.mxdiflg(text1,text2));
+
     }
 }
