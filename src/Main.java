@@ -96,7 +96,10 @@ public class Main {
 //        System.out.println(MostDigit.findLongest(array));
 
         //ArithmeticOperator
-        System.out.println(ArithmeticFunction.arithmetic(1,8,"add"));
+//        System.out.println(ArithmeticFunction.arithmetic(1,8,"add"));
+
+        //Evaporator
+        Evaporator.evaporator(10,10,10);
 
     }
 }
