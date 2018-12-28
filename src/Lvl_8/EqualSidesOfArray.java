@@ -1,3 +1,5 @@
+package Lvl_8;
+
 public class EqualSidesOfArray {
     public static void main(String[] args) {
 
