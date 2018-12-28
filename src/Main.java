@@ -93,7 +93,10 @@ public class Main {
 
 //        System.out.println(TriangleTreasure.triangular(5));
         //Most digit
-        System.out.println(MostDigit.findLongest(array));
+//        System.out.println(MostDigit.findLongest(array));
+
+        //ArithmeticOperator
+        System.out.println(ArithmeticFunction.arithmetic(1,8,"add"));
 
     }
 }
