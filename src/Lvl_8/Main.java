@@ -101,7 +101,7 @@ public class Main {
 //        System.out.println(ArithmeticFunction.arithmetic(1,8,"add"));
 
         //Evaporator
-        Evaporator.evaporator(10,10,10);
+//        Evaporator.evaporator(10,10,10);
 
     }
 }
