@@ -103,7 +103,9 @@ public class Main {
         //Evaporator
 //        Evaporator.evaporator(10,10,10);
         //RockPaperScissors
-        System.out.println(RockPaperScissors.rps("paper", "rock"));
+//        System.out.println(RockPaperScissors.rps("paper", "rock"));
 
+        //StringToAlternateUnits
+//        System.out.println(StringToAlternateUnits.toAlternativeString("bodzio"));
     }
 }
