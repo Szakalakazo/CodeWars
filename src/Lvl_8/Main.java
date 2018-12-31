@@ -107,5 +107,13 @@ public class Main {
 
         //StringToAlternateUnits
 //        System.out.println(StringToAlternateUnits.toAlternativeString("bodzio"));
+
+        //ReversedSequence
+//        ReversedSequence.reverse(5);
+
+        //AlternateStringCase
+        System.out.println(AlternateStringCase.toAlternativeString("Ala ma kota"));
+
+
     }
 }
