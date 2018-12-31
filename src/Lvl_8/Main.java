@@ -112,8 +112,9 @@ public class Main {
 //        ReversedSequence.reverse(5);
 
         //AlternateStringCase
-        System.out.println(AlternateStringCase.toAlternativeString("Ala ma kota"));
+//        System.out.println(AlternateStringCase.toAlternativeString("Ala ma kota"));
 
-
+        //DoubleValueInArr
+        DoubleValueInArr.map(array);
     }
 }
