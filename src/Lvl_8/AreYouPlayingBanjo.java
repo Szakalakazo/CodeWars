@@ -1,0 +1,8 @@
+package Lvl_8;
+
+public class AreYouPlayingBanjo {
+    public static String areYouPlayingBanjo(String name) {
+        return (name.toLowerCase().charAt(0) == 'r') ? name + " plays banjo" : name + " does not play banjo";
+
+    }
+}

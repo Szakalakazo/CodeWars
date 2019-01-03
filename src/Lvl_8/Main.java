@@ -127,7 +127,9 @@ public class Main {
         //StringyStrings
         //System.out.println(StringyStrings.stringy(5));
 
+        //System.out.println(VovelsToExclamatoin.replace("Hello! HI"));
 
+        System.out.println(CountOddNumbers.oddCount(7));
 
     }
 }
