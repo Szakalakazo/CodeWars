@@ -121,6 +121,9 @@ public class Main {
         //ToSquareRootOrNotSquareRoot
         //System.out.println(Arrays.toString(ToSquareRootOrNotSquareRoot.squareOrSquareRoot(array)));
 
+        //ReverseSentence
+        System.out.println(ReverseSentence.reverseWords("The greatest victory is that which requires no battle"));
+
 
     }
 }
