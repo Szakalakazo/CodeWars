@@ -3,11 +3,12 @@ package Lvl_8;
 import Lvl_7.*;
 
 import javax.swing.*;
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int[] array = {2, 1, -100, 100};
+        int[] array = { 100, 101, 5, 5, 1, 1 };
         String[] stringArray = {"ala", "ma", "kota"};
         String test = "Ala ma koteczka a kotek ma ale";//new String();
         String[] text1 = new String[]{"1234", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"};
@@ -115,6 +116,11 @@ public class Main {
 //        System.out.println(AlternateStringCase.toAlternativeString("Ala ma kota"));
 
         //DoubleValueInArr
-        DoubleValueInArr.map(array);
+//        DoubleValueInArr.map(array);
+
+        //ToSquareRootOrNotSquareRoot
+        //System.out.println(Arrays.toString(ToSquareRootOrNotSquareRoot.squareOrSquareRoot(array)));
+
+
     }
 }
