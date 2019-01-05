@@ -12,7 +12,7 @@ public class Main {
         String[] stringArray = {"ala", "ma", "kota"};
         String test = "Ala ma koteczka a kotek ma ale";//new String();
         String[] text1 = new String[]{"1234", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"};
-        String[] text2 = new String[]{"gggqaffhhh", "cccooommaaqqoxii", "tttoowwwmmww"};
+        String[] text2 = new String[]{"bitcoin", "take", "over", "the", "world", "maybe", "who", "knows", "perhaps"};
 
         //Removing Spaces in String
         //System.out.println(RemoveStringSpaces.noSpace("String With Spaces"));
@@ -129,7 +129,8 @@ public class Main {
 
         //System.out.println(VovelsToExclamatoin.replace("Hello! HI"));
 
-        System.out.println(CountOddNumbers.oddCount(7));
+        //System.out.println(CountOddNumbers.oddCount(7));
+        SortAndStar.twoSort(text2);
 
     }
 }
