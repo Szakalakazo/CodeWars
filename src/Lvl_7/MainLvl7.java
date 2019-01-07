@@ -20,6 +20,7 @@ public class MainLvl7 {
         //System.out.println(BrokenSequence.findMissingNumber("1 2 3 5 g "));
         //System.out.println(ReverseSentence.reverseWords("ultr53o?n"));
         //FormTheMinimum.minValue(array1);
-        System.out.println(CompareStringsBySumOfChars.compare(s1, s2));
+        //System.out.println(CompareStringsBySumOfChars.compare(s1, s2));
+        AlphabetWar.alphabetWar(s1);
     }
 }
