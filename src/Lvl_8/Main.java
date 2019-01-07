@@ -133,7 +133,8 @@ public class Main {
         //SortAndStar.twoSort(text2);
 
         //System.out.println(AbbreviateTwoWordName.abbrevName("Sam Haris"));
-        System.out.println(ReduceTheGrow.grow(array));
+        //System.out.println(ReduceTheGrow.grow(array));
+        System.out.println(SortAndStar.twoSort(stringArray));
 
     }
 }
