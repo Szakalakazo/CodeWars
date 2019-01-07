@@ -8,7 +8,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int[] array = { 100, 101, 5, 5, 1, 1 };
+        int[] array = {1, 2, 3, 4};
         String[] stringArray = {"ala", "ma", "kota"};
         String test = "Ala ma koteczka a kotek ma ale";//new String();
         String[] text1 = new String[]{"1234", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"};
@@ -130,7 +130,10 @@ public class Main {
         //System.out.println(VovelsToExclamatoin.replace("Hello! HI"));
 
         //System.out.println(CountOddNumbers.oddCount(7));
-        SortAndStar.twoSort(text2);
+        //SortAndStar.twoSort(text2);
+
+        //System.out.println(AbbreviateTwoWordName.abbrevName("Sam Haris"));
+        System.out.println(ReduceTheGrow.grow(array));
 
     }
 }
