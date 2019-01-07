@@ -134,7 +134,11 @@ public class Main {
 
         //System.out.println(AbbreviateTwoWordName.abbrevName("Sam Haris"));
         //System.out.println(ReduceTheGrow.grow(array));
-        System.out.println(SortAndStar.twoSort(stringArray));
+        //System.out.println(SortAndStar.twoSort(stringArray));
+        //CounttheMonkeys.monkeyCount(5);
+        System.out.println(Cockroach.cockroachSpeed(1.09));
+
+
 
     }
 }
