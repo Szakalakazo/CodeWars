@@ -25,6 +25,9 @@ public class MainLvl7 {
         //AlphabetWar.alphabetWar(s1);
         //System.out.println(DoubleSort.dbSort(o));
         //System.out.println(BalancedNumbers.balancedNum(56239814));
-        System.out.println(ComplementaryDNA.makeComplement("ATTGC"));
+        //System.out.println(ComplementaryDNA.makeComplement("ATTGC"));
+        //System.out.println(StringEndsWith.solution("samurai","re"));
+        //System.out.println(AnagramDetection.isAnagram("foefet", "toffee"));
+        System.out.println(CorrectTimeString.timeCorrect("23:59:60"));
     }
 }
