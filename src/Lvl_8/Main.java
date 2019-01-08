@@ -8,8 +8,8 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int[] array = {1, 2, 3, 4};
-        String[] stringArray = {"ala", "ma", "kota"};
+        int[] array = {1, 2, 3, 5, 6};
+        String[] stringArray = {"John", "Smith"};
         String test = "Ala ma koteczka a kotek ma ale";//new String();
         String[] text1 = new String[]{"1234", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"};
         String[] text2 = new String[]{"bitcoin", "take", "over", "the", "world", "maybe", "who", "knows", "perhaps"};
@@ -136,7 +136,10 @@ public class Main {
         //System.out.println(ReduceTheGrow.grow(array));
         //System.out.println(SortAndStar.twoSort(stringArray));
         //CounttheMonkeys.monkeyCount(5);
-        System.out.println(Cockroach.cockroachSpeed(1.09));
+        //System.out.println(Cockroach.cockroachSpeed(1.09));
+        //FindFirstNonConsecutiveNumber.find(array);
+        //System.out.println(NoZerosForHeros.noBoringZeros(15100));
+        WelcomeToCity.sayHello(stringArray,"Phoenix","Arizona");
 
 
 
