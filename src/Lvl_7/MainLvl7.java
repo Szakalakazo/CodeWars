@@ -9,6 +9,7 @@ public class MainLvl7 {
         String testStrign1 = "aaaxbbbbyyhwawiwjjjwwm";
         String s1 = null;
         String s2 = "BB";
+        Object[] o = {"C", "W", "W", "W", 1, 2, 0};
 
 
 
@@ -21,6 +22,9 @@ public class MainLvl7 {
         //System.out.println(ReverseSentence.reverseWords("ultr53o?n"));
         //FormTheMinimum.minValue(array1);
         //System.out.println(CompareStringsBySumOfChars.compare(s1, s2));
-        AlphabetWar.alphabetWar(s1);
+        //AlphabetWar.alphabetWar(s1);
+        //System.out.println(DoubleSort.dbSort(o));
+        //System.out.println(BalancedNumbers.balancedNum(56239814));
+        System.out.println(ComplementaryDNA.makeComplement("ATTGC"));
     }
 }
