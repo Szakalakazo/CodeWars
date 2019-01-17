@@ -13,7 +13,7 @@ public class MainLvl6 {
 //        System.out.println(FindOdd.findIt(array2));
 //        System.out.println(FindOutlier.find(array2));
 //        System.out.println(ReverseWords.spinWords("Hey fellow warriors"));
-        System.out.println(MorseCodeDecoder.decode(".... . -.--   .--- ..- -.. ."));
-
+//        System.out.println(MorseCodeDecoder.decode(".... . -.--   .--- ..- -.. ."));
+        YourOrder.order("is2 Thi1s T4est 3a");
     }
 }
