@@ -9,7 +9,8 @@ import java.util.*;
 public class HowArrayIsSorted {
     public static void isSortedAndHow(int[] array) {
 
-        List<Integer> arrayList = new ArrayList<Integer>(Arrays.asList(array));
+
+        List<Integer> arrayList = new ArrayList<Integer>(Arrays.asList(a));
         List<Integer> ascending = new ArrayList<>();
         List<Integer> descending = new ArrayList<>();
 

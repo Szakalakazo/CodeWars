@@ -10,6 +10,8 @@ public class MainLvl7 {
         String s1 = null;
         String s2 = "BB";
         Object[] o = {"C", "W", "W", "W", 1, 2, 0};
+        String[] rotten = new String []{"rottenApple","rottenBanana","rottenApple","rottenPineapple","rottenKiwi"};
+
 
 
 
@@ -28,6 +30,7 @@ public class MainLvl7 {
         //System.out.println(ComplementaryDNA.makeComplement("ATTGC"));
         //System.out.println(StringEndsWith.solution("samurai","re"));
         //System.out.println(AnagramDetection.isAnagram("foefet", "toffee"));
-        System.out.println(CorrectTimeString.timeCorrect("23:59:60"));
+        //System.out.println(CorrectTimeString.timeCorrect("23:59:60"));
+        System.out.println(HelpFruitGuy.removeRotten(rotten).toString());
     }
 }
